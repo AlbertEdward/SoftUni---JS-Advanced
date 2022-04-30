@@ -140,8 +140,7 @@ function solve9(n) {
 solve9(5);
 
 //10. Aggregate Elements
-
-let aggregateElements = (array) => {
+function aggregateElements(array){
 
     let numbersArray = array.map(Number);
     let sum = numbersArray.reduce((a, b) => a + b);
@@ -158,4 +157,4 @@ let aggregateElements = (array) => {
     console.log(inverseValuesSum);
     console.log(stringConcat);
 }
-aggregateElements([1, 2, 3]);
+console.log(aggregateElements([2, 4, 8, 16]));
